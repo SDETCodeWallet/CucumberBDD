@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.cucumber.runner.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 0, Errors: 4, Skipped: 4, Time elapsed: 38.102 sec <<< FAILURE!
+And User entered invalid user Name as "User1"(| user1 | password123 |)  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.cucumber.stepdefinitions.InvalidLogin_Login_Steps.user_entered_invalid_user_Name_as(InvalidLogin_Login_Steps.java:40)
+	at ?.And User entered invalid user Name as "User1"(InvalidLogin_Test.feature:9)
+
+| user1 | password123 |  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.cucumber.stepdefinitions.InvalidLogin_Login_Steps.user_entered_invalid_user_Name_as(InvalidLogin_Login_Steps.java:40)
+	at ?.And User entered invalid user Name as "User1"(InvalidLogin_Test.feature:9)
+
+When I fill the form with data from excel(Scenario: Creating New Account)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.cucumber.stepdefinitions.Create_New_Customer_Test_Steps.i_fill_the_form_with_data_from_excel(Create_New_Customer_Test_Steps.java:141)
+	at ?.When I fill the form with data from excel(NewCustomer.feature:20)
+
+Scenario: Creating New Account  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.cucumber.stepdefinitions.Create_New_Customer_Test_Steps.i_fill_the_form_with_data_from_excel(Create_New_Customer_Test_Steps.java:141)
+	at ?.When I fill the form with data from excel(NewCustomer.feature:20)
+

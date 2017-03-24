@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="33" failures="0" name="com.cucumber.runner.RunCukesTest" time="0.032" errors="4" skipped="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Abhinav\Downloads\CucumberExtentReporter-master\CucumberExtentReporter-master"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Abhinav\Downloads\CucumberExtentReporter-master\CucumberExtentReporter-master"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\Abhinav\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Atin Chak\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9218988262068841538.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_102/bin/client;C:/Program Files/Java/jre1.8.0_102/bin;C:/Program Files/Java/jre1.8.0_102/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Skype\Phone\;%JAVA_HOME%\bin;C:\gradle-2.13\bin;C:\groovy-2.4.7\bin;C:\Program Files\nodejs\;%M2_HOME%\bin;%MAVEN_HOME%\bin;C:\Users\Abhinav\AppData\Roaming\npm;D:\eclipse-jee-mars-2-win32\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Abhinav"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Abhinav"/>
+    <property name="java.class.path" value="/D:/eclipse-jee-mars-2-win32/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_102\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Abhinav\Downloads\CucumberExtentReporter-master\CucumberExtentReporter-master\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="| user1 | password123 |" name="Given User is Launching Browser" time="0"/>
+  <testcase classname="| user1 | password123 |" name="When User Navigate to Login Page" time="0"/>
+  <testcase classname="| user1 | password123 |" name="And User entered invalid user Name as &quot;User1&quot;" time="0.008">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.cucumber.stepdefinitions.InvalidLogin_Login_Steps.user_entered_invalid_user_Name_as(InvalidLogin_Login_Steps.java:40)
+	at ✽.And User entered invalid user Name as &quot;User1&quot;(InvalidLogin_Test.feature:9)
+</error>
+  </testcase>
+  <testcase classname="| user1 | password123 |" name="| user1 | password123 |" time="0.008">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.cucumber.stepdefinitions.InvalidLogin_Login_Steps.user_entered_invalid_user_Name_as(InvalidLogin_Login_Steps.java:40)
+	at ✽.And User entered invalid user Name as &quot;User1&quot;(InvalidLogin_Test.feature:9)
+</error>
+  </testcase>
+  <testcase classname="| user1 | password123 |" name="And User entered invalid user Password as &quot;Password1&quot;" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="| user1 | password123 |" name="Then Message displayed Login error" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Successfully Login to the Application" name="Given User is Launching Browser" time="0"/>
+  <testcase classname="Scenario: Successfully Login to the Application" name="When User Navigate to Login Page" time="0"/>
+  <testcase classname="Scenario: Successfully Login to the Application" name="And User entered valid UserName" time="0"/>
+  <testcase classname="Scenario: Successfully Login to the Application" name="And User entered valid UserPassword" time="0"/>
+  <testcase classname="Scenario: Successfully Login to the Application" name="Then Message displayed Login Successfully" time="0"/>
+  <testcase classname="Scenario: Successfully Login to the Application" name="Scenario: Successfully Login to the Application" time="0"/>
+  <testcase classname="Scenario: Verifying Home Page" name="When User makes collection of links" time="0"/>
+  <testcase classname="Scenario: Verifying Home Page" name="Then Verifying the Links on HomePage" time="0"/>
+  <testcase classname="Scenario: Verifying Home Page" name="Scenario: Verifying Home Page" time="0"/>
+  <testcase classname="Scenario: Successfully Logout" name="When User LogOut from the Application" time="0"/>
+  <testcase classname="Scenario: Successfully Logout" name="Then Message displayed LogOut Successfully" time="0"/>
+  <testcase classname="Scenario: Successfully Logout" name="Scenario: Successfully Logout" time="0"/>
+  <testcase classname="Scenario: Successfully Login to the Application" name="Given User is Launching Browser" time="0"/>
+  <testcase classname="Scenario: Successfully Login to the Application" name="When User Navigate to Login Page" time="0"/>
+  <testcase classname="Scenario: Successfully Login to the Application" name="And User entered valid UserName" time="0"/>
+  <testcase classname="Scenario: Successfully Login to the Application" name="And User entered valid UserPassword" time="0"/>
+  <testcase classname="Scenario: Successfully Login to the Application" name="Then Message displayed Login Successfully" time="0"/>
+  <testcase classname="Scenario: Successfully Login to the Application" name="Scenario: Successfully Login to the Application" time="0"/>
+  <testcase classname="Scenario: Creating New Account" name="Given User click on New Customer link" time="0"/>
+  <testcase classname="Scenario: Creating New Account" name="When I read the excel file" time="0"/>
+  <testcase classname="Scenario: Creating New Account" name="Then I access worksheet" time="0"/>
+  <testcase classname="Scenario: Creating New Account" name="Then I access Rows and Cells" time="0"/>
+  <testcase classname="Scenario: Creating New Account" name="Then I convert the sheet data into hash with keys as column headers" time="0"/>
+  <testcase classname="Scenario: Creating New Account" name="When I fill the form with data from excel" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.cucumber.stepdefinitions.Create_New_Customer_Test_Steps.i_fill_the_form_with_data_from_excel(Create_New_Customer_Test_Steps.java:141)
+	at ✽.When I fill the form with data from excel(NewCustomer.feature:20)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Creating New Account" name="Scenario: Creating New Account" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.cucumber.stepdefinitions.Create_New_Customer_Test_Steps.i_fill_the_form_with_data_from_excel(Create_New_Customer_Test_Steps.java:141)
+	at ✽.When I fill the form with data from excel(NewCustomer.feature:20)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Creating New Account" name="Then I click on submit button" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Creating New Account" name="Then Message displayed customer  record created successfully" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
